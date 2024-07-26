@@ -46,11 +46,11 @@ python demo.py
 ```
 
 * Run the script with custom settings:
-'''sh
+```sh
 python demo.py --device cuda:0 --seed 42 --classifier classical --nlayers 3 --gamma 0.7 --data FashionMNIST --c1 0 --c2 1
-'''
+```
 
-* Run on Google Colab
+* Run on `Google Colab`
 - Download the `code/main_qssl.ipynb` file
 - Upload it on Google Colab, and run cell by cell.
 
