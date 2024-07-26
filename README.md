@@ -21,9 +21,7 @@ The framework utilizes a classical convolutional encoder followed by a quantum c
 ## Results
 ![Results](https://github.com/namhai03/QSSL/blob/main/images/results.png)
 
-## Requirement
-    pip install -r requirements.txt
-
 ## How to use
-1. ``` git clone https://github.com/namhai03/QSSL.git ```
-2. 
+1. Clone this repo:   ```git clone https://github.com/namhai03/QSSL.git```
+2. Requirement:   ```pip install -r requirements.txt```
+3. 
