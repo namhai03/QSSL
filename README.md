@@ -40,17 +40,17 @@ To run the `demo.py`script, you can specify the following command-line arguments
 - **--c1**: Class label 1 (0-9). Default is `0`.
 - **--c2**: Class label 2 (0-9), different from c1. Default is `1`.
 
-* Run the `demo.py` with default settings:
+**Run the `demo.py` with default settings:**
 ```sh
 python demo.py
 ```
 
-* Run the script with custom settings:
+**Run the script with custom settings:**
 ```sh
 python demo.py --device cuda:0 --seed 42 --classifier classical --nlayers 3 --gamma 0.7 --data FashionMNIST --c1 0 --c2 1
 ```
 
-* Run on `Google Colab`
+**Run on `Google Colab`:**
 - Download the `code/main_qssl.ipynb` file
 - Upload it on Google Colab, and run cell by cell.
 
