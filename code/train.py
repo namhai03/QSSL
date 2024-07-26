@@ -12,7 +12,7 @@ from SSL import *
 def main(seed, classifier, nlayers, gamma, data, c1, c2, device):
     torch.manual_seed(seed)
     np.random.seed(seed)
-    num_epochs = 20
+    num_epochs = 50
     img_size = 14
     batch_size = 512
     lr =1e-3
